@@ -230,7 +230,7 @@ const MasterLayout = ({ children }) => {
       text: "Users", 
       icon: <FiUser size={20} />, 
       children: [
-        { id: "/users/list", text: "List Users", icon: <FiList size={20} /> },
+        { id: "/users", text: "List Users", icon: <FiList size={20} /> },
         { id: "/users/create", text: "Create User", icon: <FiPlus size={20} /> },
         { id: "/users/roles", text: "User Roles", icon: <FiShield size={20} /> }
       ]

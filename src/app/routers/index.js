@@ -1,6 +1,5 @@
 import Home from '../pages/Home.jsx'
-// import About from '../pages/About'
-// import Products from '../pages/Products'
+import Users from '../pages/Users'
 
 export const routes = [
   {
@@ -8,14 +7,9 @@ export const routes = [
     element: Home,
     title: 'Home'
   },
-//   {
-//     path: '/about',
-//     element: About,
-//     title: 'About'
-//   },
-//   {
-//     path: '/products',
-//     element: Products,
-//     title: 'Products'
-//   }
+  {
+    path: '/users',
+    element: Users,
+    title: 'Users'
+  },
 ]
